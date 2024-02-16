@@ -1,9 +1,14 @@
         @import "styles/fonts.css";
         @import "styles/mobile.css";
-
+        html{
+                overflow-x: hidden;
+        }
         @media screen and (min-width: 768px)   {
                 body{
                         padding: 0;
+                }
+                .header{
+                        padding-top: 48px;
                 }
                 .wrapper{
                         width: 700px;
@@ -43,7 +48,9 @@
                 .wrapper{
                         width: 1200px;
                 }
-
+                .header{
+                        padding-top: 49px;
+                }
                 .header__content{
                         display: flex;
                         justify-content: space-between;
