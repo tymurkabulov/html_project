@@ -2,7 +2,9 @@
         @import "styles/mobile.css";
 
         @media screen and (min-width: 768px)   {
-
+                body{
+                        padding: 0;
+                }
                 .wrapper{
                         width: 700px;
                 }
