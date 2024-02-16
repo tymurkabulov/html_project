@@ -1,7 +1,42 @@
         @import "styles/fonts.css";
         @import "styles/mobile.css";
 
+        @media screen and (min-width: 768px)   {
 
+                .wrapper{
+                        width: 700px;
+                }
+
+                .section-1__wrapper{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                }
+                .section-1__image-block{
+                        width: 700px;
+                        height: 500px;
+                }
+                .section-5{
+                        background: rgba(30, 30, 32)
+                }
+                .section-2__image-block{
+                        width: 700px;
+                        height: 400px;
+                }
+                .grid-container{
+                        display: grid;
+                        justify-content: center;
+                        grid-template-columns: repeat(2,auto);
+                        grid-gap: 24px;
+                }
+                .section-4__gallery{
+                        gap: 10px;
+                }
+                .img2{
+                        display: flex;
+                }
+        }
         @media screen and (min-width: 1200px) {
                 .wrapper{
                         width: 1200px;
