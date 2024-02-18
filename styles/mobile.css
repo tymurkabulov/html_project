@@ -10,7 +10,7 @@
         justify-content: center;
     }
     body{
-        width: 100vw;
+
         background: rgb(25, 25, 27);
         color: rgb(255, 255, 255);
         font-family: 'Lato',sans-serif;
@@ -40,7 +40,7 @@
         margin: 66px 0 30px 0;
         font-size: 42px;
         font-weight: 400;
-        line-height: 150%;
+
     }
 
     .section-1__content-text{
@@ -48,7 +48,7 @@
         color: rgba(255, 255, 255, 0.7);
         font-size: 16px;
         font-weight: 400;
-        line-height: 150%;
+
     }
     .button{
         cursor: pointer;
@@ -84,7 +84,7 @@
         height: 406px;
     }
 
-    .section-2{
+    .section-2__wrapper{
         margin-top: 140px;
     }
 
@@ -92,14 +92,14 @@
         color: rgb(255, 255, 255);
         font-size: 36px;
         font-weight: 400;
-        line-height: 150%;
+
     }
 
     .section-2__content-text{
         color: rgba(255, 255, 255, 0.7);
         font-size: 16px;
         font-weight: 400;
-        line-height: 150%;
+
         margin: 30px 0 50px 0;
     }
     .section-2__image-block{
@@ -134,13 +134,13 @@
         color: rgb(255, 255, 255);
         font-size: 24px;
         font-weight: 600;
-        line-height: 29px;
+
     }
     .grid-container__block-text{
         color: rgba(255, 255, 255, 0.7);
         font-size: 16px;
         font-weight: 400;
-        line-height: 28px;
+
 
     }
 
@@ -152,7 +152,7 @@
         color: rgb(255, 255, 255);
         font-size: 36px;
         font-weight: 400;
-        line-height: 150%;
+
     }
 
     .section-4__gallery{
@@ -186,14 +186,13 @@
         color: rgb(255, 255, 255);
         font-size: 36px;
         font-weight: 400;
-        line-height: 150%;
         margin-bottom: 50px;
     }
     .section-5-button{
         color: rgb(255, 255, 255);
         font-size: 16px;
         font-weight: 700;
-        line-height: 19px;
+
     }
 
     .footer__wrapper{
@@ -217,7 +216,7 @@
         color: rgb(255, 255, 255);
         font-size: 18px;
         font-weight: 400;
-        line-height: 28px;
+
     }
 
     .footer__logo{

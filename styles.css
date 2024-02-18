@@ -89,7 +89,10 @@
                         background: rgb(84, 84, 212);
                 }
 
+                .section-1{
+                        margin-top: 24px;
 
+                }
                 .section-1__content-button:hover{
                         background: rgb(25, 25, 27);
                         border: 1px solid rgb(255, 255, 255);
@@ -103,14 +106,28 @@
                 }
 
                 .section-1__content-container{
-                        width: 582px;
+                        width: 585px;
+                        height: 100%;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        text-align: start;
+                        align-items: start;
 
                 }
+                .section-1__content-heading{
+                        margin: 0;
+                        font-size: 70px;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                }
 
+                .section-1__content-text{
+                        color: rgba(255, 255, 255, 0.7);
+                        font-size: 21px;
+                        font-weight: 400;
+                        line-height: 39px;
+                        margin-top: 24px;
+                }
                 .section-1__image-block{
                         width: 656px;
                         height: 100%;
@@ -120,7 +137,6 @@
                 }
 
                 .section-2{
-                        margin-top: 150px;
                         margin-bottom: 150px;
                 }
 
@@ -182,13 +198,13 @@
                         color: rgb(255, 255, 255);
                         font-size: 24px;
                         font-weight: 600;
-                        line-height: 29px;
+
                 }
                 .grid-container__block-text{
                         color: rgba(255, 255, 255, 0.7);
                         font-size: 16px;
                         font-weight: 400;
-                        line-height: 28px;
+
 
                 }
 
@@ -197,7 +213,7 @@
                         color: rgb(255, 255, 255);
                         font-size: 58px;
                         font-weight: 800;
-                        line-height: 70px;
+
 
 
                 }
@@ -239,7 +255,7 @@
                 .section-5__heading{
                         font-size: 60px;
                         font-weight: 400;
-                        line-height: 72px;
+
                         margin-bottom: 0;
                 }
                 .section-5-button{
@@ -247,7 +263,7 @@
                         height: 60px;
                         font-size: 21px;
                         font-weight: 700;
-                        line-height: 25px;
+
                 }
                 .section-5-button:hover{
                         background: rgb(25, 25, 27);
@@ -278,7 +294,7 @@
 
                         font-size: 16px;
                         font-weight: 400;
-                        line-height: 38px;
+
 
 
                 }
