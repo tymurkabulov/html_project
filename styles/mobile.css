@@ -65,11 +65,11 @@
     }
 
     .section-1__image-block{
-        width: 374px;
-        height: 406px;
+        width: 100%;
+        height: 350px;
         background-image: url("../img/banner_1.svg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     .section-1__content-button{
@@ -83,10 +83,7 @@
         font-weight: 700;
     }
 
-    .section-1__image-block{
-        width: 374px;
-        height: 406px;
-    }
+
 
     .section-2__wrapper{
         margin-top: 140px;
