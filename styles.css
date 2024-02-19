@@ -19,8 +19,12 @@
                         align-items: center;
                 }
                 .section-1__image-block{
-                        width: 700px;
+                        width: 500px;
                         height: 500px;
+                }
+
+                .section-1__content-button{
+                        margin: 50px 0 0 0;
                 }
                 .section-5{
                         background: rgba(30, 30, 32)
@@ -130,10 +134,10 @@
                 }
                 .section-1__image-block{
                         width: 656px;
-                        height: 100%;
+                        height: 713px;
                         background-image: url("img/banner_1.svg");
                         background-repeat: no-repeat;
-                        background-size: cover;
+                        background-size: contain;
                 }
 
                 .section-2{
