@@ -7,9 +7,7 @@
                 body{
                         padding: 0;
                 }
-                .header{
-                        padding-top: 48px;
-                }
+
                 .wrapper{
                         width: 700px;
                 }
@@ -49,7 +47,9 @@
                         width: 1200px;
                 }
                 .header{
-                        padding-top: 49px;
+                      display: flex;
+                        justify-content: center;
+                        align-items: center;
                 }
                 .header__content{
                         display: flex;
